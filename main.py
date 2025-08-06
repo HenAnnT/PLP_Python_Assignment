@@ -1,29 +1,19 @@
-# def sum_n(n):
-#     """Return the sum of first n natural numbers using recursion."""
-#     if n == 0:
-#         return 0
-#     else:
-#         return n + sum_n(n - 1)
+my_list = []
 
+my_list.append(90)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
 
-# for i in range(1, 11):
-#     recursive_sum = sum_n(i)
-#     formula_sum = i * (i + 1) // 2
-#     print(f"n = {i}, Recursive Sum: {recursive_sum}, Formula Sum: {formula_sum}")
+my_list.insert(1, 15)
 
+my_list.append(50)
+my_list.append(60)
+my_list.append(70)
 
-# Turples -- Are immutable sequences, typically used to store collections of heterogeneous data.
+my_list.pop()
 
-# products = ('XBox', 499.99, "Habibi", 23)
-# print(products)
+my_list.sort()
 
-# Logical operators
-"""
-a = 10
-b = 20
-c = 30
-d = 40
-
-print(a < b and c < d)  # True
-print(a > d or b > c) """
-
+index_30 = my_list.index(30)
+print(f"The index of 30 is: {index_30}")
